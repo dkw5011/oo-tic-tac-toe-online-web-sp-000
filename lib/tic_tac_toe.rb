@@ -114,10 +114,10 @@ class TicTacToe
     end
     
     def play 
-      turn = 0
-    until over? == true || turn == 9 
+      counter = 0
+    until over? == true || counter == 9 
       turn
-      turn += 1
+      counter += 1
     end
   
     if won?
